@@ -1,0 +1,34 @@
+.profile-pic {
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 3px 8px -5px rgba(0, 0, 0, 0.42);
+  box-shadow: 3px 3px 8px -5px rgba(0, 0, 0, 0.42);
+}
+
+.about-text {
+  font-weight: 400;
+}
+
+/* Typewriter Animation */
+.about-title,
+.blinker-span {
+  font-family: 'Source Code Pro', monospace;
+  color: rgb(48, 48, 48);
+}
+
+#typewriter-span:first-child {
+  color: #ce8e3b;
+  /* font-weight: bold; */
+}
+
+/* Custom Media Queries */
+
+@media screen and (max-width: 576px) {
+  .about-name {
+    font-size: 1.8em;
+  }
+
+  .about-title,
+  .blinker-span {
+    font-size: 1.1em;
+  }
+}
